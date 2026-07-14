@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <!-- Dark theme rounded container -->
+  <rect width="512" height="512" rx="128" fill="#09090b"/>
+  <!-- Elegant Emerald Accent border -->
+  <rect x="8" y="8" width="496" height="496" rx="120" stroke="#10b981" stroke-width="16" stroke-opacity="0.15"/>
+  
+  <!-- Graduation Cap Icon in Center -->
+  <g transform="translate(64, 64) scale(1.5)">
+    <!-- Cap Diamond -->
+    <path d="M128 32 L224 80 L128 128 L32 80 Z" fill="#10b981"/>
+    <!-- Tassel -->
+    <path d="M224 80 L224 144" stroke="#059669" stroke-width="12" stroke-linecap="round"/>
+    <circle cx="224" cy="144" r="8" fill="#059669"/>
+    <!-- Cap base -->
+    <path d="M64 104 V144 C64 168 96 176 128 176 C160 176 192 168 192 144 V104" fill="none" stroke="#10b981" stroke-width="14" stroke-linecap="round"/>
+  </g>
+</svg>

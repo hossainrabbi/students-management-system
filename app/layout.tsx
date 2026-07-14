@@ -9,9 +9,14 @@ const nunitoSans = Nunito_Sans({
   weight: ["300", "400", "500", "600", "700", "800", "900"],
 });
 
+export const viewport = {
+  themeColor: "#10b981",
+};
+
 export const metadata: Metadata = {
-  title: "EduManager - Students Management System",
-  description: "A complete school management platform.",
+  title: "EduManager",
+  description: "Modern School Management System",
+  applicationName: "EduManager",
 };
 
 export default function RootLayout({
